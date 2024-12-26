@@ -10,13 +10,12 @@ internal class Downloader
             AllowAutoRedirect = true,
             MaxAutomaticRedirections = 10,
         };
-        _client = new(handler)
-        {
-            BaseAddress = new(base_url),
-        };
+        _client = new(handler);
+        if (!string.IsNullOrEmpty(base_url)) _client.BaseAddress = new Uri(base_url);
         _client.DefaultRequestHeaders.Add(
             "User-Agent", 
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+        );
     }
     protected async Task<List<string>> GetLinksFromUrl(string url, string pre = "<a href=", string post = ">")
     {
