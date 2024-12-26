@@ -43,6 +43,9 @@ internal class ScandDownloader : Downloader
                 Console.WriteLine($"File {filename} already exists. Skipping.");
                 continue;
             }
+            string? path_stud = Path.GetDirectoryName(filename);
+            if (string.IsNullOrEmpty(path_stud)) continue;
+            if (!Directory.Exists(path_stud)) Directory.CreateDirectory(path_stud);
             await DownloadSingleFile(dataObject.url, filename);
         }
     }
