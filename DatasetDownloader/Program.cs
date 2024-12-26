@@ -5,7 +5,7 @@ using DatasetDownloader;
 const string json_template = @"{
   ""datasets"": [
     {
-      ""link_file"": ""<DATASET_SPECIFIC_LINKS>"",
+      ""linkFile"": ""<DATASET_SPECIFIC_LINKS>"",
       ""name"": ""<DATASET_NAME>"",
       ""path"": ""<DOWNLOAD_PATH>"",
       ""url"": ""<BASE_URL>""
@@ -26,7 +26,7 @@ if (!File.Exists("config.json"))
 using JsonDocument doc = JsonDocument.Parse(File.ReadAllText("config.json"));
 JsonElement root = doc.RootElement;
 JsonElement datasets = root.GetProperty("datasets");
-List<Task> tasks = [];
+List<Downloader> downloaders = [];
 foreach (JsonElement dataset in datasets.EnumerateArray())
 {
     string? name = dataset.GetProperty("name").GetString()?.ToUpper();
@@ -35,10 +35,10 @@ foreach (JsonElement dataset in datasets.EnumerateArray())
         Console.WriteLine("Invalid dataset name. Please check the config.json file.");
         return;
     }
-    string? link_file = dataset.GetProperty("link_file").GetString();
+    string? linkFile = dataset.GetProperty("linkFile").GetString();
     string? path = dataset.GetProperty("path").GetString();
     string? url = dataset.GetProperty("url").GetString();
-    if (link_file == null || path == null || url == null)
+    if (linkFile == null || path == null || url == null)
     {
         Console.WriteLine("Invalid configuration. Please check the config.json file.");
         return;
@@ -46,16 +46,10 @@ foreach (JsonElement dataset in datasets.EnumerateArray())
     switch (name)
     {
         case "HURON":
-            HuronDownloader huronDownloader = new(url);
-            List<string> huronLinks = huronDownloader.GetHuronPageLinks(link_file);
-            Task huronDownloadTask = huronDownloader.DownloadHuron(huronLinks, path);
-            tasks.Add(huronDownloadTask);
+            downloaders.Add(new HuronDownloader(url, path, linkFile));
             break;
         case "SCAND":
-            ScandDownloader scandDownloader = new();
-            List<ScandDataObject> scandDataObject = ScandDataObject.Load(link_file);
-            Task scandDownloadTask = scandDownloader.DownloadScand(scandDataObject, path);
-            tasks.Add(scandDownloadTask);
+            downloaders.Add(new ScandDownloader(path, linkFile));
             break;
         default:
             Console.WriteLine("Invalid dataset name. Please check the config.json file.");
@@ -66,8 +60,8 @@ foreach (JsonElement dataset in datasets.EnumerateArray())
 
 // await task one after another
 int taskIndex = 0;
-foreach (var task in tasks)
+foreach (Downloader downloader in downloaders)
 {
-    Console.WriteLine($"======= Downloading datasets {++taskIndex}/{tasks.Count} =======");
-    task.GetAwaiter().GetResult(); // wait for the task to complete synchronously
+    Console.WriteLine($"======= Downloading datasets {++taskIndex}/{downloaders.Count} =======");
+    downloader.Download();
 }

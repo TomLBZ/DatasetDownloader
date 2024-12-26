@@ -1,9 +1,8 @@
 ﻿namespace DatasetDownloader;
 
-internal class HuronDownloader : Downloader
+internal class HuronDownloader(string baseUrl, string storePath, string linkFile) : Downloader(baseUrl, storePath, linkFile)
 {
-    public HuronDownloader(string base_url = "") : base(base_url) { }
-    public async Task<List<string>> GetHuronPageLinksAsync(string pre = "<a href=", string post = ">", string filename = "huron_links.txt")
+    private List<string> GetHuronPageLinks(string pre = "<a href=", string post = ">", string filename = "huron_links.txt")
     {
         if (File.Exists(filename))
         {
@@ -11,17 +10,13 @@ internal class HuronDownloader : Downloader
             return [.. File.ReadAllLines(filename)];
         }
         Console.WriteLine($"Downloading from {_client.BaseAddress}");
-        List<string> datalinks = await GetLinksFromUrl("", pre, post);
-        List<string>[] links = await Task.WhenAll(datalinks.Select(link => GetLinksFromUrl(link, pre, post)));
+        List<string> datalinks = GetLinksFromUrl("", pre, post);
+        List<string>[] links = datalinks.Select(link => GetLinksFromUrl(link, pre, post)).ToArray();
         datalinks = links.Aggregate((a, b) => [.. a, .. b]);
         File.WriteAllLines(filename, datalinks);
         return datalinks;
     }
-    public List<string> GetHuronPageLinks(string pre = "<a href=", string post = ">", string filename = "huron_links.txt")
-    {
-        return GetHuronPageLinksAsync(pre, post, filename).Result;
-    }
-    public async Task DownloadHuron(List<string> links, string store_path)
+    private void DownloadHuron(List<string> links, string store_path)
     {
         int index = 0;
         foreach (var link in links)
@@ -36,7 +31,12 @@ internal class HuronDownloader : Downloader
             string? path_stud = Path.GetDirectoryName(filename);
             if (string.IsNullOrEmpty(path_stud)) continue;
             if (!Directory.Exists(path_stud)) Directory.CreateDirectory(path_stud);
-            await DownloadSingleFile(link, filename);
+            DownloadSingleFile(link, filename);
         }
+    }
+    public override void Download()
+    {
+        List<string> links = GetHuronPageLinks(pre: "<a href=", post: ">", filename: _linkFile);
+        DownloadHuron(links, _storePath);
     }
 }

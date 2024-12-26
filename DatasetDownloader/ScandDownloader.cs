@@ -1,17 +1,12 @@
 ﻿using System.Text.Json;
 
 namespace DatasetDownloader;
-internal struct ScandDataObject
+internal struct ScandDataObject(string name, long byte_size, string url)
 {
-    public string name;
-    public long byte_size;
-    public string url;
-    public ScandDataObject(string name, long byte_size, string url)
-    {
-        this.name = name;
-        this.byte_size = byte_size;
-        this.url = url;
-    }
+    public string name = name;
+    public long byte_size = byte_size;
+    public string url = url;
+
     public static List<ScandDataObject> Load(string filename)
     {
         using JsonDocument doc = JsonDocument.Parse(File.ReadAllText(filename));
@@ -29,9 +24,9 @@ internal struct ScandDataObject
         return dataObjects;
     }
 }
-internal class ScandDownloader : Downloader
+internal class ScandDownloader(string storePath, string linkFile) : Downloader("", storePath, linkFile)
 {
-    public async Task DownloadScand(List<ScandDataObject> dataObjects, string store_path)
+    private void DownloadScand(List<ScandDataObject> dataObjects, string store_path)
     {
         int index = 0;
         foreach (var dataObject in dataObjects)
@@ -46,7 +41,12 @@ internal class ScandDownloader : Downloader
             string? path_stud = Path.GetDirectoryName(filename);
             if (string.IsNullOrEmpty(path_stud)) continue;
             if (!Directory.Exists(path_stud)) Directory.CreateDirectory(path_stud);
-            await DownloadSingleFile(dataObject.url, filename);
+            DownloadSingleFile(dataObject.url, filename);
         }
+    }
+    public override void Download()
+    {
+        List<ScandDataObject> dataObjects = ScandDataObject.Load(_linkFile);
+        DownloadScand(dataObjects, _storePath);
     }
 }
