@@ -3,13 +3,13 @@
     {
       "linkFile": "huron_links.txt",
       "name": "huron",
-      "path": "datasets/huron/",
+      "path": "/cs/datasets/huron/",
       "url": "https://rail.eecs.berkeley.edu/datasets/huron/"
     },
     {
       "linkFile": "scand.json",
       "name": "scand",
-      "path": "datasets/scand/",
+      "path": "/cs/datasets/scand/",
       "url": ""
     }
   ]

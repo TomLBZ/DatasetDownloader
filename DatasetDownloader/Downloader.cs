@@ -42,7 +42,6 @@ internal class Downloader
     }
     protected void DownloadSingleFile(string link, string filename)
     {
-        Console.WriteLine($"Downloading {link} to {filename}");
         using var response = _client.GetAsync(link, HttpCompletionOption.ResponseHeadersRead).Result;
         response.EnsureSuccessStatusCode();
         long? contentLength = response.Content.Headers.ContentLength;
