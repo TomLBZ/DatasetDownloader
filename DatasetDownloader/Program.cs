@@ -48,7 +48,7 @@ foreach (JsonElement dataset in datasets.EnumerateArray())
         case "HURON":
             HuronDownloader downloader = new(url);
             Task<List<string>> huronLinksTask = downloader.GetHuronPageLinks(link_file);
-            Task huronDownloadTask = huronLinksTask.ContinueWith(async links => await downloader.DownloadHuron(links.Result, path));
+            Task huronDownloadTask = huronLinksTask.ContinueWith(links => downloader.DownloadHuron(links.Result, path));
             tasks.Add(huronDownloadTask);
             break;
         case "SCAND":
@@ -69,5 +69,5 @@ int taskIndex = 0;
 foreach (var task in tasks)
 {
     Console.WriteLine($"======= Downloading datasets {++taskIndex}/{tasks.Count} =======");
-    task.Wait();
+    await task;
 }
