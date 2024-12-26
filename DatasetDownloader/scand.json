@@ -1,0 +1,2943 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.18738/T8/0PRYRH",
+  "identifier": "https://doi.org/10.18738/T8/0PRYRH",
+  "name": "Socially Compliant Navigation Dataset (SCAND)",
+  "creator": [
+    {
+      "@type": "Person",
+      "givenName": "Haresh",
+      "familyName": "Karnan",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0001-9855-0921",
+      "@id": "https://orcid.org/0000-0001-9855-0921",
+      "identifier": "https://orcid.org/0000-0001-9855-0921",
+      "name": "Karnan, Haresh"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Anirudh",
+      "familyName": "Nair",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0002-5941-318X",
+      "@id": "https://orcid.org/0000-0002-5941-318X",
+      "identifier": "https://orcid.org/0000-0002-5941-318X",
+      "name": "Nair, Anirudh"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Xuesu",
+      "familyName": "Xiao",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0001-5151-2186",
+      "@id": "https://orcid.org/0000-0001-5151-2186",
+      "identifier": "https://orcid.org/0000-0001-5151-2186",
+      "name": "Xiao, Xuesu"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Garrett",
+      "familyName": "Warnell",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0003-3846-8787",
+      "@id": "https://orcid.org/0000-0003-3846-8787",
+      "identifier": "https://orcid.org/0000-0003-3846-8787",
+      "name": "Warnell, Garrett"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Soeren",
+      "familyName": "Pirk",
+      "name": "Pirk, Soeren"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Alexander",
+      "familyName": "Toshev",
+      "name": "Toshev, Alexander"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Justin",
+      "familyName": "Hart",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "name": "Hart, Justin"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Joydeep",
+      "familyName": "Biswas",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0002-1211-1731",
+      "@id": "https://orcid.org/0000-0002-1211-1731",
+      "identifier": "https://orcid.org/0000-0002-1211-1731",
+      "name": "Biswas, Joydeep"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Peter",
+      "familyName": "Stone",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0002-6795-420X",
+      "@id": "https://orcid.org/0000-0002-6795-420X",
+      "identifier": "https://orcid.org/0000-0002-6795-420X",
+      "name": "Stone, Peter"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Haresh",
+      "familyName": "Karnan",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0001-9855-0921",
+      "@id": "https://orcid.org/0000-0001-9855-0921",
+      "identifier": "https://orcid.org/0000-0001-9855-0921",
+      "name": "Karnan, Haresh"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Anirudh",
+      "familyName": "Nair",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0002-5941-318X",
+      "@id": "https://orcid.org/0000-0002-5941-318X",
+      "identifier": "https://orcid.org/0000-0002-5941-318X",
+      "name": "Nair, Anirudh"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Xuesu",
+      "familyName": "Xiao",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0001-5151-2186",
+      "@id": "https://orcid.org/0000-0001-5151-2186",
+      "identifier": "https://orcid.org/0000-0001-5151-2186",
+      "name": "Xiao, Xuesu"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Garrett",
+      "familyName": "Warnell",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0003-3846-8787",
+      "@id": "https://orcid.org/0000-0003-3846-8787",
+      "identifier": "https://orcid.org/0000-0003-3846-8787",
+      "name": "Warnell, Garrett"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Soeren",
+      "familyName": "Pirk",
+      "name": "Pirk, Soeren"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Alexander",
+      "familyName": "Toshev",
+      "name": "Toshev, Alexander"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Justin",
+      "familyName": "Hart",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "name": "Hart, Justin"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Joydeep",
+      "familyName": "Biswas",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0002-1211-1731",
+      "@id": "https://orcid.org/0000-0002-1211-1731",
+      "identifier": "https://orcid.org/0000-0002-1211-1731",
+      "name": "Biswas, Joydeep"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Peter",
+      "familyName": "Stone",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Texas at Austin"
+      },
+      "sameAs": "https://orcid.org/0000-0002-6795-420X",
+      "@id": "https://orcid.org/0000-0002-6795-420X",
+      "identifier": "https://orcid.org/0000-0002-6795-420X",
+      "name": "Stone, Peter"
+    }
+  ],
+  "datePublished": "2022-08-25",
+  "dateModified": "2024-07-18",
+  "version": "5",
+  "description": "This dataset provides human-teleoperated socially compliant navigation demonstrations. Social navigation is the capability of an autonomous agent to navigate in a socially compliant manner such that it recognizes and reacts to the objectives of other navigating agents, at least somewhat adjusting its own path in response, while also projecting signals that can help the other agents reciprocate. Some examples of socially compliant navigation behavior include sticking to the right of the road, following a crowd, overtaking a crowd, etc. The image above shows two socially compliant navigation strategies around human crowds: a) moving with traffic, and b) sticking to the right of the road. SCAND contains 25 miles and 8.7 hours of robot driven trajectories through a variety of social environments around the University of Texas at Austin campus. The image below shows the area within the UT Austin campus where data was collected by teleoperating the robots. SCAND CONTENTS 138 robot-driven trajectories. 15 days of social navigation data on 2 robots: a wheeled Clearpath Jackal, and a legged Boston Dynamics Spot. Indoor and outdoor environments @ UT Austin campus. 2 highly crowded football game days (including a concert at the same time!) Mild to heavily crowded environments. 4 different human demonstrators. Each SCAND trajectory includes: RGB Azure Kinect camera, velodyne pointclouds, stereo camera, visual odometry (Spot), wheel odometry (Jackal), leg positions (Spot), joystick commands issued by the demonstrator, and monocular cameras (Spot). All data is stored in the ROSBAG data format http://wiki.ros.org/Bags/Format. For each trajectory the accompanying video contains a speed up version of the robot's camera view, intended to provide a quick overlook of the scene in a particular trajectory for the end user. SCAND files follow the following file naming convention : {Demonstrator tag}_{Robot name}_{Start location}_{End location}_{Day}_{Month}_{Date}_{Trajectory number}.bag/.mp4/.avi The wheeled Jackal and legged Spot robots used to collect the data are shown below along with the multi-modal sensors implemented in both. The image below illustrates five example scenarios from SCAND showing the RGB image and accompanying LIDAR. The scenarios have tags indicating the characteristics present in the trajectories such as: street crossing, narrow doorway, navigating through large crowds, vehicle interaction and crossing stationary queue. In SCAND, we provide twelve different labels of socially compliant navigation events, along an entire trajectory for all the trajectories in the dataset. To label the dataset, the trajectories were manually annotated by monitoring the camera information. The labels are included in the AB_README.txt file alongside their frequency of appearance and in the metadata corresponding to each file published in this dataset. Note that the labels provided are coarse because they are not associated with a timestamp. Detailed information about the trajectories, the human demonstrators, the robots, the sensors, and the software used to collect and process the data is also included in the AB_README.txt file published along with the data. In Related Materials we point to software and hardware resources utilized in this project. DATA USAGE EXAMPLES In Related Publications, users can find references to publications describing this study including examples of experiments conducted with the dataset. The objective behind the SCAND dataset is to provide a rich set of socially compliant robot navigation demonstrations. An imitative policy was trained using the behavior cloning algorithm. Below is an example figure of how the behavior cloned policy trained using SCAND was tested using real-world deployments in a human participant study. Results were perceived to be socially compliant in comparison to the classical move_base navigation stack. This dataset can be used to develop autonomous mobile robots that can navigate within human crowds in a socially compliant manner, and to analyze human reactions and behaviors in the presence of mobile robots of different morphologies. DOWNLOADING LARGE DATASETS The entire SCAND is ~ 400 gig of size. A few individual rosbag files are larger than 4 gig. These characteristics present limitations for downloading the entire dataset as well as individual large files through the DataVerse interface. Users that want to download data in bulk can use the download_data. py script provided in this dataset.",
+  "keywords": [
+    "Engineering",
+    "Computer and Information Science",
+    "Social Navigation",
+    "Robotics, Social Navigation, Reinforcement Learning, Navigation, Imitation Learning, Learning from Demonstrations, Dataset, LiDAR, Images"
+  ],
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "Karnan, Haresh, Anirudh Nair, Xuesu Xiao, Garrett Warnell, Soeren Pirk, Alexander Toshev, Justin W. Hart, Joydeep Biswas and Peter Stone. “Socially Compliant Navigation Dataset (SCAND): A Large-Scale Dataset of Demonstrations for Social Navigation.” Robotics and Automation Letters (RA-L).",
+      "@id": "https://ieeexplore.ieee.org/document/9799755",
+      "identifier": "https://ieeexplore.ieee.org/document/9799755",
+      "url": "https://ieeexplore.ieee.org/document/9799755"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Haresh Karnan, Anirudh Nair, Xuesu Xiao, Garrett Warnell, Soeren Pirk, Alexander Toshev, Justin Hart, Joydeep Biswas, Peter Stone (2022) Socially Compliant Navigation Dataset (SCAND): A Large-Scale Dataset of Demonstrations for Social Navigation. arXiv. doi: 10.48550/ARXIV.2203.15041",
+      "@id": "https://arxiv.org/abs/2203.15041",
+      "identifier": "https://arxiv.org/abs/2203.15041",
+      "url": "https://arxiv.org/abs/2203.15041"
+    }
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Texas Data Repository",
+    "url": "https://dataverse.tdl.org"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Texas Data Repository"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Texas Data Repository"
+  },
+  "spatialCoverage": [
+    "Austin, Texas, United States, The University of Texas at Austin campus"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "AB.SCAND_scenarios.png",
+      "encodingFormat": "image/png",
+      "contentSize": 412549,
+      "description": "Five example scenarios showing the RGB image and below the accompanying LIDAR with the monocular image from the side camera on the Spot robot. From left to right the scenarios are tagged as \"street crossing\", \"narrow doorway\", \"navigating through large crowds\", \"vehicle interaction\" and \"crossing stationary queue\".",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/ELEREJ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/ELEREJ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/241571"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "AB_Readme_SCANDv2 .pdf",
+      "encodingFormat": "application/pdf",
+      "contentSize": 28730,
+      "description": "Detailed documentation about the dataset. ",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/TOKVHY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/TOKVHY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/265924"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "AB_robots_sensors.png",
+      "encodingFormat": "image/png",
+      "contentSize": 1022694,
+      "description": "Sensors present on the wheeled Jackal and the legged Spot robots. Along with this multi-modal sensor information, SCAND also contains joystick commands issued during the navigation demonstration.",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/7LIACN",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/7LIACN",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/241570"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "AB_social_navigation.png",
+      "encodingFormat": "image/png",
+      "contentSize": 1002699,
+      "description": " A human demonstrator tele-operates the two robots used to collect this dataset following a socially compliant strategy around human crowds. Left image = moving with\ntraffic. Right image = sticking to the right of the road.",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/TICBIN",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/TICBIN",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/241569"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Fountain_Mccombs_Thu_Oct_28_6.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 55308059,
+      "description": "testing for visualization",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/QHC7JL",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/QHC7JL",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/243168"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "human_trials_setup.png",
+      "encodingFormat": "image/png",
+      "contentSize": 689005,
+      "description": "Image showing the static and dynamic scenario experimental setup to evaluate the behavior cloned navigation policy trained using SCAND compared to the move base classical navigation stack.",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/AJOPNB",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/AJOPNB",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/267220"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "map_polygon.png",
+      "encodingFormat": "image/png",
+      "contentSize": 405854,
+      "description": "Map showing the area where the SCAND dataset was collected within the University of Texas at Austin campus. ",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/AV821D",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/AV821D",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/267219"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_AHG_Library_Thu_Nov_4_16.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2898756089,
+      "description": "With Traffic ",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/S08P2U",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/S08P2U",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/135970"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_AHG_Library_Thu_Oct_28_1.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3328856755,
+      "description": "Against Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/3ETU91",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/3ETU91",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133209"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_AHG_Library_Thu_Oct_28_2.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2517274878,
+      "description": "Against Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/TQVWDP",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/TQVWDP",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133214"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_AHG_Library_Thu_Oct_28_7.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3998609769,
+      "description": "Overtaking,Against Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/D0JHX3",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/D0JHX3",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133229"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Brackenridge_Greg_Sat_Nov_13_94.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 616997827,
+      "description": "Sidewalk,Vehicle Interaction",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CV6PQ9",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CV6PQ9",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138178"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Fountain_Library_Fri_Oct_29_9.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1970837391,
+      "description": "Street Crossing,Sidewalk",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CATZ5A",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CATZ5A",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133232"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Fountain_Library_Thu_Nov_4_19.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1202905818,
+      "description": "Sidewalk, With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RGIJWJ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RGIJWJ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133250"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Fountain_Mccombs_Thu_Oct_28_6.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 527078577,
+      "description": "Sidewalk",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NHWZVE",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NHWZVE",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133219"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_GDC_GDC_Fri_Oct_29_11.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 88448269,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/DCF8QK",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/DCF8QK",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133233"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_GDC_SAC_Fri_Oct_29_13.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 405104244,
+      "description": "Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NHVC3W",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NHVC3W",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133236"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Greg_GDC_Sat_Nov_13_95.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 440693701,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/Z8ORRZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/Z8ORRZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138179"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Libraryfront_Librarydoors_Thu_Nov_4_20.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 336944282,
+      "description": "Sidewalk",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/KRPNVZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/KRPNVZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133249"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_AHG_Fri_Oct_29_8.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3726130110,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/HJI5PF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/HJI5PF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133230"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_AHG_Thu_Nov_4_17.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2893612722,
+      "description": "Against Traffic ",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/T2LRFB",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/T2LRFB",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136018"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_AHG_Thu_Oct_28_3.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2518193901,
+      "description": "Sidewalk,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/LFMRLZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/LFMRLZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133213"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_AHG_Thu_Oct_28_4.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2965084713,
+      "description": "Overtaking,Street Crossing,Against Traffic,With Traffic ",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/U4IPAE",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/U4IPAE",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133217"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_Fountain_Fri_Oct_29_10.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1631318720,
+      "description": "Passing Conversational Groups,Sidewalk",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/N3IHJY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/N3IHJY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133231"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_Fountain_Thu_Nov_4_18.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 942721394,
+      "description": "Sidewalk, With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/5B6UD9",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/5B6UD9",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/135969"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_Fountain_Thu_Oct_28_5.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 813143775,
+      "description": "Sidewalk,Overtaking,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/94IOUW",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/94IOUW",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133218"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_REC_Abandon_Sat_Nov_13_92.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 214620198,
+      "description": "Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/GRJSQ9",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/GRJSQ9",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138177"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_SAC_GDC_Fri_Oct_29_14.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 241482439,
+      "description": "Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/I3UGFZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/I3UGFZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133235"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_SAC_SACindoor_Fri_Oct_29_15.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 96312239,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CDZFF0",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CDZFF0",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133240"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Sanjac_Rec_Sat_Nov_13_91.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1022914246,
+      "description": "Navigating Through Large Crowds,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/UODTZI",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/UODTZI",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138175"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Speedway_Speedway_Fri_Oct_29_12.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1171532913,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/ZYR5SA",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/ZYR5SA",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133234"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_AHG_Mon_Nov_8_27.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 9558460099,
+      "description": "With Traffic,Stairs,Sidewalk,Street Crossing,Vehicle Interaction",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/WJOQRC",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/WJOQRC",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136510"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Cola_Sat_Nov_13_96.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3497698505,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CQHBD1",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CQHBD1",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138181"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Ahg_EERC_Thu_Nov_11_79.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2203326340,
+      "description": "With Traffic,Sidewalk,Narrow Doorway",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/HORB5L",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/HORB5L",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138164"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Fountain_Mon_Dec_20_137.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2360870396,
+      "description": "Overtaking,With Traffic,Stairs,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/A0TJFT",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/A0TJFT",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133251"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_GDC_Tue_Nov_9_41.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2798793692,
+      "description": "Narrow Doorway,Stairs",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/XCLUN9",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/XCLUN9",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136672"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Library_Fri_Nov_12_81.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4173237836,
+      "description": "With Traffic,Vehicle Interaction",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/HAWDJV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/HAWDJV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138166"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Library_Fri_Nov_5_21.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 6466980594,
+      "description": "With Traffic, Against Traffic ",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/1LPRBO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/1LPRBO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/135968"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Library_Mon_Nov_8_24.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4037570186,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/MCQWEV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/MCQWEV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136021"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Library_Tue_Nov_16_118.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2202282340,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/JVGGD8",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/JVGGD8",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138265"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Library_Wed_Nov_10_46.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4640537320,
+      "description": "With Traffic,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/4GCFTL",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/4GCFTL",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136679"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Ahg_Library_Wed_Nov_10_56.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4405971164,
+      "description": "With Traffic,Vehicle Interation,Against Traffic,Overtaking,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/IDXPTR",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/IDXPTR",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138139"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Ballstructure_UTTower_Wed_Nov_10_60.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 750574609,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/X36Z7B",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/X36Z7B",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138143"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Bass_Garage_Fri_Nov_26_134.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 640252794,
+      "description": "Overtaking,Navigating Through Large Crowds,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/QFYLJS",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/QFYLJS",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136455"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Bass_Rec_Fri_Nov_26_126.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4966185501,
+      "description": "Passing Conversational Groups,Crossing Stationary Queue,Against Traffic,Navigating Through Large Crowds,Overtaking",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NH2I6D",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NH2I6D",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138258"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Bass_Rec_Fri_Nov_26_128.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 5111889848,
+      "description": "Passing Conversational Groups,Crossing Stationary Queue,Against Traffic,Navigating Through Large Crowds",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/AN3WEY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/AN3WEY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136685"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Boatbuilding_AHG_Thu_Nov_4_23.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 880319407,
+      "description": "Against Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/DI8WDF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/DI8WDF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133406"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Butler_Foodtruck_Fri_Nov_26_132.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3418686158,
+      "description": "With Traffic,Against Traffic,Sidewalk,Navigating Through Large Crowds",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/EF1YJO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/EF1YJO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136459"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Butler_LBJ_Sat_Nov_13_104.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1192272278,
+      "description": "Blind Corner,Street Crossing,Navigating Through Large Crowds,Sidewalk",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/QMNNZB",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/QMNNZB",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138186"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Dobie_Dobie_Thu_Nov_11_73.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 570880576,
+      "description": "Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/SAEBNY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/SAEBNY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138158"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Dobie_Fountain_Fri_Nov_12_84.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 960425619,
+      "description": "Sidewalk,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/XYCIVY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/XYCIVY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138168"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Dobie_Littlefield_Wed_Nov_10_58.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 852673934,
+      "description": "Sidewalk,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YZPUAG",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YZPUAG",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138142"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_EERC_Ahg_Thu_Nov_11_80.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1063579875,
+      "description": "Sidewalk,Vehicle Interaction",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/8J6PAH",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/8J6PAH",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138157"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_EER_AHG_Mon_Nov_8_32.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2064909533,
+      "description": "Sidewalk,With Traffic,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/1PIAWS",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/1PIAWS",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136514"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_EER_AHG_Tue_Nov_9_40.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1428253714,
+      "description": "Sidewalk,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/BKPCZX",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/BKPCZX",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136566"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_EER_OsCafe_Tue_Nov_9_39.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1148479919,
+      "description": "Stairs,Navigating Through Large Crowds",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YB5FIN",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YB5FIN",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136567"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Fountain_Dobie_Fri_Nov_12_83.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1028378882,
+      "description": "Sidewalk,Street Crossing,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/FHGV0M",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/FHGV0M",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138167"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Fountain_Greg_Mon_Dec_20_138.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1859693845,
+      "description": "Sidewalk,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RS14QQ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RS14QQ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133228"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Fountain_Library_Fri_Nov_12_85.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1345282199,
+      "description": "Sidewalk,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RJTPFK",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RJTPFK",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138173"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Fountain_Library_Mon_Nov_8_26.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1718261124,
+      "description": "Sidewalk,Stairs,With Traffic ",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/P9SMN5",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/P9SMN5",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136453"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Fountain_Library_Tue_Nov_16_120.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 947344256,
+      "description": "Street Crossing,Sidewalk",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RBL5PU",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RBL5PU",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138263"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_GDC_AHG_Thu_Nov_18_124.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1512143559,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NRMRJA",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NRMRJA",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138260"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_GDC_Jester_Thu_Nov_18_121.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2628301846,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/BX1WIZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/BX1WIZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138262"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_GeorgeWashington_Mccombs_Wed_Nov_10_59.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1013920537,
+      "description": "Sidewalk,With Traffic,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/4DCWJ8",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/4DCWJ8",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138141"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_JCL_JCL_Wed_Nov_10_65.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 813331442,
+      "description": "Navigating Through Large Crowds,Passing Conversational Groups,Blind Corner",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/49GMNO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/49GMNO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138144"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_JCL_JCL_Wed_Nov_10_66.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 384434857,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/9QFROW",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/9QFROW",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138153"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Jester_Jester_Wed_Nov_10_63.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1250901857,
+      "description": "With Traffic,Stairs",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/EBPETY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/EBPETY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138146"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Jester_Jester_Wed_Nov_10_64.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 955629533,
+      "description": "Stairs,WithTraffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/UBUSSX",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/UBUSSX",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138147"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_LBJ_Stadium_Sat_Nov_13_105.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3464128114,
+      "description": "Vehicle Interaction,Sidewalk,Navigating Through Large Crowds,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/SNKWMW",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/SNKWMW",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136498"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Lbj_Thompson_Sat_Nov_13_99.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2386785231,
+      "description": "Navigating Through Large Crowds,Sidewalk,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/OV83GO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/OV83GO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138184"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_AHG_Fri_Nov_12_86.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4504147093,
+      "description": "Passing Conversational Groups,With Traffic,Vehicle Interaction",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/DBNNZV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/DBNNZV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138174"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_AHG_Mon_Nov_8_28.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3611268578,
+      "description": "With Traffic, Vehicle Interaction,",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/2KVOAH",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/2KVOAH",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136500"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_AHG_Mon_Nov_8_33.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 5024245004,
+      "description": "Vehicle Interaction,Against Traffic,With Traffic,Overtaking",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/UFLC49",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/UFLC49",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136515"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_AHG_Thu_Nov_4_22.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4980371984,
+      "description": "Against Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RTXSNV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RTXSNV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/135967"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_AHG_Tue_Nov_9_43.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4042622968,
+      "description": "With Traffic,Passing Conversational Groups,Vehicle Interaction,Overtaking",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/K531GT",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/K531GT",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136680"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Dobie_Wed_Nov_10_57.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2369886525,
+      "description": "Sidewalk,Street Crossing,Passing Conversational groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RI54RL",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RI54RL",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138138"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Fountain_Fri_Nov_12_82.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1657124548,
+      "description": "Sidewalk,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/FKWHKT",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/FKWHKT",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138163"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Fountain_Mon_Nov_8_25.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1732807624,
+      "description": "Sidewalk,Street Crossing,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/HW8J8M",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/HW8J8M",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136450"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Fountain_Mon_Nov_8_30.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1606914557,
+      "description": "Sidewalk,With Traffic,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CS8KCM",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CS8KCM",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136511"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Fountain_Tue_Nov_16_119.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 732350251,
+      "description": "Sidewalk,Street Crossing,Vehicle Interaction",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/AC4FAC",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/AC4FAC",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138264"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Fountain_Tue_Nov_9_35.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1979411983,
+      "description": "With Traffic,Passing Conversational Groups,Sidewalk,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/PRFDEO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/PRFDEO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136564"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_MLK_Thu_Nov_18_122.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1083186856,
+      "description": "Narrow Doorway,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/6O2KKR",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/6O2KKR",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138185"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_MLK_Thu_Nov_18_123.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2769205120,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/MGYRJX",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/MGYRJX",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138261"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_NHB_Ahg_Wed_Nov_10_55.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 171991737,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RFDSMF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RFDSMF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136682"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_NHB_Jester_Wed_Nov_10_62.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 5581066334,
+      "description": "Sidewalk,Against Traffic,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RKK6MG",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RKK6MG",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138148"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Parlin_Parlin_Wed_Nov_10_51.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 708909629,
+      "description": "Narrow Doorway,Stairs",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/FOBVA2",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/FOBVA2",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136683"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Rec_Tent_Fri_Nov_26_136.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2242641825,
+      "description": "Sidewalk,With Traffic,Against Traffic,Navigating Through Large Crowds,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/HWSBYY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/HWSBYY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136015"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_SAC_GeorgeWashStatue_Wed_Nov_10_50.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4081350346,
+      "description": "With Traffic,Sidewalk,Street Crossing,Stairs",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/GAY8XZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/GAY8XZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136681"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Security_NHB_Wed_Nov_10_54.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 997712804,
+      "description": "Sidewalk,Against Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/52ZXLF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/52ZXLF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138133"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Stadium_PerformingArtsCenter_Sat_Nov_13_106.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2040601465,
+      "description": "Sidewalk,Overtaking,Navigating Through Large Crowds",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/KPV7SL",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/KPV7SL",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138191"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Stadium_Rec_Fri_Nov_26_135.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3492971465,
+      "description": "Overtaking,Navigating Through Large Crowds,Passing Conversational Groups,Against Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/J16WRP",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/J16WRP",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136017"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Thompson_Butler_Sat_Nov_13_103.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 393195880,
+      "description": "Sidewalk,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/15KWFU",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/15KWFU",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138187"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Union_Library_Tue_Nov_9_37.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4836316860,
+      "description": "With Traffic,Blind Corner,Stairs,Street Crossing,Sidewalk",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/IUEZFJ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/IUEZFJ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136671"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Union_Union_Wed_Nov_10_53.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 803425622,
+      "description": "Narrow Doorway,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/SLHXCH",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/SLHXCH",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138132"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Union_Union_Wed_Nov_10_67.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 898839087,
+      "description": "Narrow Doorway,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/XWSKJI",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/XWSKJI",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138152"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_UTTower_Union_Wed_Nov_10_61.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1472269754,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/OSQXAD",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/OSQXAD",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138145"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Welch_Union_Thu_Nov_11_71.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4085692545,
+      "description": "Sidewalk,With Traffic,Street Crossing,Stairs,Narrow Doorway",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/EBCZUB",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/EBCZUB",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138160"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Jackal_GDC_Library_Sat_Nov_13_87.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1003276572,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/SP4Q00",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/SP4Q00",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138171"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Jackal_Library_Sanjac_Sat_Nov_13_88.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1248621564,
+      "description": "Sidewalk,Overtaking",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/TUTWAK",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/TUTWAK",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138172"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Jackal_REC_Footballfield_Sat_Nov_13_93.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 559902879,
+      "description": "With Traffic,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/OENVG6",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/OENVG6",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138176"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Jackal_Sanjac_Stadium_Sat_Nov_13_89.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 688529164,
+      "description": "Navigating Through Large Crowds,Street Crossing,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/7V7AB6",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/7V7AB6",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138170"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Jackal_Stadium_Sanjac_Sat_Nov_13_90.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 611163920,
+      "description": "Navigating Through Large Crowds,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/IV68PS",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/IV68PS",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138169"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_AHG_Library_Mon_Nov_15_107.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4059156048,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/N1Z6DC",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/N1Z6DC",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138190"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Ahg_Library_Thu_Nov_11_68.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4258804022,
+      "description": "With Traffic,Vehicle Interaction",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/FF6WS4",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/FF6WS4",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138151"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_AHG_Library_Tue_Nov_9_34.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4182020174,
+      "description": "With Traffic,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/MWOYKV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/MWOYKV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136513"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_AHG_Union_Mon_Nov_15_111.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3592180208,
+      "description": "Vehicle Interaction,Sidewalk,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/5THTDR",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/5THTDR",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138245"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Cola_Cola_Sat_Nov_13_97.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 566397972,
+      "description": "Navigating Through Large Crowds",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/4EYCQX",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/4EYCQX",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138180"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Dobie_Library_Thu_Nov_11_74.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3034789235,
+      "description": "Sidewalk,Passing Conversational Groups,Street Crossing,Blind Corner,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/3E2OL8",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/3E2OL8",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138161"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Fountain_Library_Mon_Nov_8_31.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1593902425,
+      "description": "Sidewalk,With Traffic,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/JJU9CW",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/JJU9CW",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136512"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Fountain_Union_Tue_Nov_9_36.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3088409783,
+      "description": "Stairs,With Traffic,Street Crossing,Blind Corner",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/DAKVRY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/DAKVRY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136565"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_GDC_AHG_Mon_Nov_15_116.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1101900741,
+      "description": "Vehicle Interaction,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/HQ12BO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/HQ12BO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138267"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_GDC_Library_Tue_Nov_9_42.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3839859833,
+      "description": "Narrow Doorway,Stairs,With Traffic,Vehicle Interaction",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/UX80TK",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/UX80TK",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136668"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Greg_Ahg_Thu_Nov_11_78.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3741744897,
+      "description": "Passing Conversational Groups,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/MGXOOY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/MGXOOY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138165"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Hogg_GDC_Mon_Nov_15_115.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4756976209,
+      "description": "Street Crossing,Sidewalk,With Traffic,Stairs",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/SOTUJZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/SOTUJZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138268"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_JCL_JCL_Mon_Nov_15_108.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 5141185791,
+      "description": "Navigating Through Large Crowds,Passing Conversational Groups,Narrow Doorway,Stairs",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/HIW6LI",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/HIW6LI",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138192"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_JCL_JCL_Thu_Nov_11_76.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1510898191,
+      "description": "Navigating Through Large Crowds,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/0XGFVC",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/0XGFVC",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138156"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_LBJ_Thompson_Sat_Nov_13_101.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1229045761,
+      "description": "Navigating Through Large Crowds,Sidewalk",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NY2K86",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NY2K86",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138188"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_EER_Tue_Nov_9_38.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 5660788667,
+      "description": "With Traffic,Passing Conversational Groups,Vehicle Interaction,Sidewalk,Stairs",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/M1JPTK",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/M1JPTK",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136669"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_Greg_Thu_Nov_11_77.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 883593039,
+      "description": "Navigating Through Large Crowds,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/GUXEG5",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/GUXEG5",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138154"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_Jester_Thu_Nov_11_75.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 872938588,
+      "description": "Stairs,Narrow Doorway",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/VAGY99",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/VAGY99",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138155"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_MCCombs_Wed_Nov_10_47.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2247105174,
+      "description": "Sidewalk,Narrow Dororway",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/QNNYVG",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/QNNYVG",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136677"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_SAC_Thu_Nov_11_69.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2702317266,
+      "description": "Vehicle Interaction,Narrow Doorway,Crossing Stationary Queue",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/BI2AEJ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/BI2AEJ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138150"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_WagnerHall_Mon_Nov_8_29.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2091399921,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/G6AAX5",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/G6AAX5",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136509"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_NHB_Union_Mon_Nov_15_114.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3690163920,
+      "description": "Street Crossing,Sidewalk,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CAQTSH",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CAQTSH",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138269"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Parlin_NHB_Wed_Nov_10_52.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 5164150370,
+      "description": "Sidewalk,With Traffic,Against Traffic,Street Crossing,Vehicle Interaction",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YBGFKF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YBGFKF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136684"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_RLM_OsCafe_Mon_Nov_15_117.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1342749743,
+      "description": "Sidewalk,With Traffic,Narrow Doorway",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/EC7X1D",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/EC7X1D",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138266"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_RLM_RLM_Wed_Nov_10_44.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 159860509,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/P1QG67",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/P1QG67",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136673"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_RLM_RLM_Wed_Nov_10_45.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 555139334,
+      "description": "Narrow Doorway",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/KNARPT",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/KNARPT",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136674"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_SAC_AHG_Mon_Nov_15_110.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2573013890,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/IV7SAY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/IV7SAY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138257"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_SAC_NHB_Mon_Nov_15_113.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2463191889,
+      "description": "With Traffic,Vehicle Interaction",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/E9LFWE",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/E9LFWE",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138270"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_SAC_SAC_Mon_Nov_15_109.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1383009032,
+      "description": "Stairs,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/PMBZNL",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/PMBZNL",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138193"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_SAC_SAC_Wed_Nov_10_49.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 866911041,
+      "description": "Narrow Doorway,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/23YOMV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/23YOMV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136676"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Speedway_SAC_Wed_Nov_10_48.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 677185678,
+      "description": "With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/LE5ZAM",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/LE5ZAM",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136675"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Thompson_Thompson_Sat_Nov_13_100.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2839474594,
+      "description": "Street Crossing,Vehicle Interaction,Navigating Through Large Crowds,Sidewalk",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/BICXK6",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/BICXK6",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138183"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Thompson_Thompson_Sat_Nov_13_102.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 423606293,
+      "description": "Sidewalk,With Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NERXZ0",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NERXZ0",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138189"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Union_Dobie_Thu_Nov_11_72.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 4611903888,
+      "description": "Blind Corner,Street Crossing,Stairs,With Traffic,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/M03RZZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/M03RZZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138159"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Union_SAC_Mon_Nov_15_112.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3988680298,
+      "description": "With Traffic,Vehicle Interaction,Sidewalk,Stairs",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/OP2BGD",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/OP2BGD",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138255"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Welch_Welch_Thu_Nov_11_70.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 465873826,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/JRKPYN",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/JRKPYN",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138149"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_Foodtruck_Bass_Fri_Nov_26_133.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 1529176805,
+      "description": "Navigating Through Large Crowds,Passing Conversational Groups",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/HMRWH0",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/HMRWH0",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136457"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_Rec_Bass_Fri_Nov_26_127.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 6278795219,
+      "description": "Passing Conversational Groups,Crossing Stationary Queue,Against Traffic,Navigating Through Large Crowds",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/M4HPQK",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/M4HPQK",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/139272"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_Rec_Tent_Fri_Nov_26_129.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3818923817,
+      "description": "Passing Conversational Groups,Crossing Stationary Queue,Against Traffic,Navigating Through Large Crowds,Street Crossing,Overtaking",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/JV6PPP",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/JV6PPP",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138211"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_SanJac_Bass_Fri_Nov_26_125.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 2515865503,
+      "description": "Navigating Through Large Crowds,Sidewalk,Street Crossing,Passing Conversational Groups,Overtaking",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/U8ODPV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/U8ODPV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138259"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_Speedway_Butler_Fri_Nov_26_131.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 7009897659,
+      "description": "With Traffic,Against Traffic,Stairs,Navigating Through Large Crowds,Sidewalk,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/LIUEHF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/LIUEHF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136460"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_Tent_AHG_Fri_Nov_26_130.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3688312288,
+      "description": "Stairs,With Traffic,Against Traffic",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/8TKLNJ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/8TKLNJ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136462"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "D_Spot_PerformingArts_Lbj_Sat_Nov_13_98.bag",
+      "encodingFormat": "application/octet-stream",
+      "contentSize": 3654996764,
+      "description": "Crossing Stationary Queue,Navigating Through Large Crowds,Sidewalk,Street Crossing",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NS2CSR",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NS2CSR",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138182"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "download_data.py",
+      "encodingFormat": "text/x-python",
+      "contentSize": 2070,
+      "description": "The Python script for downloading this dataset. ",
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/DZ4LRW",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/DZ4LRW",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/689944"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_AHG_Library_Thu_Nov_4_16.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 234717646,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/3IWDLV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/3IWDLV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133241"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_AHG_Library_Thu_Oct_28_1.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 391831014,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/KYBIFE",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/KYBIFE",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133212"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_AHG_Library_Thu_Oct_28_2.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 264177242,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/ARQ4EN",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/ARQ4EN",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133210"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_AHG_Library_Thu_Oct_28_7.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 341236311,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/7IOQIK",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/7IOQIK",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133222"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Brackenridge_Greg_Sat_Nov_13_94.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 83944550,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/KVOPA4",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/KVOPA4",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136735"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Fountain_Library_Fri_Oct_29_9.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 157695006,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NJTAXB",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NJTAXB",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133221"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Fountain_Library_Thu_Nov_4_19.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 103363516,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/KCTVYH",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/KCTVYH",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133246"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Fountain_Mccombs_Thu_Oct_28_6.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 55308059,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NKA36A",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NKA36A",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133220"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_GDC_GDC_Fri_Oct_29_11.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 2035922,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/G3QC8U",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/G3QC8U",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133225"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_GDC_SAC_Fri_Oct_29_13.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 29307230,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/H75HRZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/H75HRZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133237"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Greg_GDC_Sat_Nov_13_95.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 58057250,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/P6ONDP",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/P6ONDP",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136732"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Libraryfront_Librarydoors_Thu_Nov_4_20.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 24248726,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/AEKFFE",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/AEKFFE",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133244"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_AHG_Fri_Oct_29_8.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 276535267,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YCKEMC",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YCKEMC",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133224"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_AHG_Thu_Nov_4_17.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 218808542,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/EW5W53",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/EW5W53",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133242"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_AHG_Thu_Oct_28_3.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 248645363,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/AC2UJF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/AC2UJF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133211"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_AHG_Thu_Oct_28_4.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 320674812,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/QRLXN8",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/QRLXN8",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133216"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_Fountain_Fri_Oct_29_10.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 120507017,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/L7BBFD",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/L7BBFD",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133223"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_Fountain_Thu_Nov_4_18.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 74682378,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/UBF7GW",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/UBF7GW",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133243"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Library_Fountain_Thu_Oct_28_5.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 80119293,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/T8IU6U",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/T8IU6U",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133215"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_REC_Abandon_Sat_Nov_13_92.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 28089908,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/9DPB10",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/9DPB10",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136728"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_SAC_GDC_Fri_Oct_29_14.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 20428609,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/2HVX3S",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/2HVX3S",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133238"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_SAC_SACindoor_Fri_Oct_29_15.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 5243509,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/AF8WEU",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/AF8WEU",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133239"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Sanjac_Rec_Sat_Nov_13_91.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 169499168,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/JBSPWR",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/JBSPWR",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136734"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Jackal_Speedway_Speedway_Fri_Oct_29_12.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 84199386,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/UKI4CY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/UKI4CY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133226"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_AHG_Mon_Nov_8_27.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 780343522,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/OBSIIK",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/OBSIIK",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136503"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Cola_Sat_Nov_13_96.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 276068660,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/GJAJVD",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/GJAJVD",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136731"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Ahg_EERC_Thu_Nov_11_79.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 150936322,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/5SFD2V",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/5SFD2V",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136600"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Fountain_Mon_Dec_20_137.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 30462536,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/UTHYJP",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/UTHYJP",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133404"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_GDC_Tue_Nov_9_41.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 171378174,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/D6TLPO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/D6TLPO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136521"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Library_Fri_Nov_12_81.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 359269832,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/UAAEJP",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/UAAEJP",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136670"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Library_Fri_Nov_5_21.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 544671256,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/GVWT1X",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/GVWT1X",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133245"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Library_Mon_Nov_8_24.avi",
+      "encodingFormat": "video/avi",
+      "contentSize": 337161128,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/E6RT70",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/E6RT70",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136020"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Library_Tue_Nov_16_118.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 24491272,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/TNOI1R",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/TNOI1R",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138104"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_AHG_Library_Wed_Nov_10_46.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 391938890,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YLYBLE",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YLYBLE",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136552"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Ahg_Library_Wed_Nov_10_56.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 381411712,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CKKEH4",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CKKEH4",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136570"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Ballstructure_UTTower_Wed_Nov_10_60.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 61574724,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/1WDXQL",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/1WDXQL",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136589"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Bass_Garage_Fri_Nov_26_134.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 5575792,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/KMUICA",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/KMUICA",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136454"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Bass_Rec_Fri_Nov_26_126.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 253476270,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/TMLF4P",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/TMLF4P",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138121"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Boatbuilding_AHG_Thu_Nov_4_23.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 60517166,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YYWJBC",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YYWJBC",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133247"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Butler_Foodtruck_Fri_Nov_26_132.avi",
+      "encodingFormat": "video/avi",
+      "contentSize": 118864958,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/8RNWKB",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/8RNWKB",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136458"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Butler_LBJ_Sat_Nov_13_104.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 77794740,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/GVVOS1",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/GVVOS1",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136736"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Dobie_Dobie_Thu_Nov_11_73.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 21715362,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/XHW4G9",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/XHW4G9",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136597"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Dobie_Fountain_Fri_Nov_12_84.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 57328402,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/WAC7NI",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/WAC7NI",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136720"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Dobie_Littlefield_Wed_Nov_10_58.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 80518986,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CRZKBW",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CRZKBW",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136591"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_EERC_Ahg_Thu_Nov_11_80.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 84654862,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YYNLV9",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YYNLV9",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136595"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_EER_AHG_Mon_Nov_8_32.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 176166814,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/78VHRB",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/78VHRB",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136506"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_EER_AHG_Tue_Nov_9_40.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 107533058,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/4YLIBS",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/4YLIBS",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136523"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_EER_OsCafe_Tue_Nov_9_39.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 55875098,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/8OU6SX",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/8OU6SX",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136520"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Fountain_Dobie_Fri_Nov_12_83.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 63688150,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/7QAWFD",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/7QAWFD",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136722"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Fountain_Greg_Mon_Dec_20_138.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 21705004,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/G3EFXT",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/G3EFXT",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133405"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Fountain_Library_Fri_Nov_12_85.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 116354488,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/FNOIWY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/FNOIWY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136723"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Fountain_Library_Mon_Nov_8_26.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 131942996,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/ST5QEF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/ST5QEF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136452"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Fountain_Library_Tue_Nov_16_120.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 12241788,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/XM0C9Q",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/XM0C9Q",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138105"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_GDC_AHG_Thu_Nov_18_124.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 107058084,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YPBH3V",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YPBH3V",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138125"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_GDC_Jester_Thu_Nov_18_121.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 207955740,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/FZQG2O",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/FZQG2O",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138122"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_GeorgeWashington_Mccombs_Wed_Nov_10_59.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 72853602,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/EHSWJB",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/EHSWJB",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136586"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_JCL_JCL_Wed_Nov_10_65.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 32858950,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/GYZIRI",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/GYZIRI",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136587"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_JCL_JCL_Wed_Nov_10_66.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 15879666,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/QLVPDZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/QLVPDZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136584"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Jester_Jester_Wed_Nov_10_63.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 49484126,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/H4SPUL",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/H4SPUL",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136585"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Jester_Jester_Wed_Nov_10_64.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 41933710,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/LKEGU7",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/LKEGU7",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136583"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_LBJ_Stadium_Sat_Nov_13_105.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 185439266,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CYLRVE",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CYLRVE",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136501"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Lbj_Thompson_Sat_Nov_13_99.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 117065438,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/ZQBGC5",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/ZQBGC5",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136729"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_AHG_Fri_Nov_12_86.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 359610592,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/JXOOJQ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/JXOOJQ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136721"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_AHG_Mon_Nov_8_28.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 250799718,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NTDWNF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NTDWNF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136499"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_AHG_Mon_Nov_8_33.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 401998934,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/M8QVI3",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/M8QVI3",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136507"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_AHG_Thu_Nov_4_22.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 426728204,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/1CALGF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/1CALGF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/133248"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_AHG_Tue_Nov_9_43.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 326336298,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/ILMHNF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/ILMHNF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136557"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Dobie_Wed_Nov_10_57.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 180052510,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/XWAAAH",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/XWAAAH",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136568"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Fountain_Fri_Nov_12_82.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 149271568,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/ICYJ99",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/ICYJ99",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136678"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Fountain_Mon_Nov_8_25.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 116577820,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/78XOPY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/78XOPY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136451"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Fountain_Mon_Nov_8_30.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 128752776,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/9DUTYQ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/9DUTYQ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136504"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Fountain_Tue_Nov_16_119.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 8058616,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/XRQMX9",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/XRQMX9",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138106"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_Fountain_Tue_Nov_9_35.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 159351374,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YYARYS",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YYARYS",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136516"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_MLK_Thu_Nov_18_122.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 48900386,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RR2LYV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RR2LYV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138123"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Library_MLK_Thu_Nov_18_123.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 212910378,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/MA2BZZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/MA2BZZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138127"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_NHB_Ahg_Wed_Nov_10_55.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 11319658,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/FG1HLY",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/FG1HLY",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136569"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_NHB_Jester_Wed_Nov_10_62.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 466463010,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/54QJX1",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/54QJX1",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136582"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Parlin_Parlin_Wed_Nov_10_51.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 28326826,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YHTHAG",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YHTHAG",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136559"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Rec_Tent_Fri_Nov_26_136.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 21746086,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/DT2PKA",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/DT2PKA",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136019"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_SAC_GeorgeWashStatue_Wed_Nov_10_50.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 365309398,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/IXRO2O",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/IXRO2O",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136561"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Security_NHB_Wed_Nov_10_54.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 80418754,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/0ZAGR7",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/0ZAGR7",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136562"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Stadium_PerformingArtsCenter_Sat_Nov_13_106.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 109458012,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/QKCAUC",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/QKCAUC",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136573"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Stadium_Rec_Fri_Nov_26_135.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 33665403,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/MKFOTM",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/MKFOTM",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136016"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Thompson_Butler_Sat_Nov_13_103.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 20036964,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/SMVJYI",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/SMVJYI",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136739"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Union_Library_Tue_Nov_9_37.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 424159752,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NZV2BL",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NZV2BL",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136518"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Union_Union_Wed_Nov_10_53.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 32271616,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/QIVKTS",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/QIVKTS",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136560"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Union_Union_Wed_Nov_10_67.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 34419116,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/MR8TLT",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/MR8TLT",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136588"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_UTTower_Union_Wed_Nov_10_61.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 126951236,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NIW88O",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NIW88O",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136590"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "A_Spot_Welch_Union_Thu_Nov_11_71.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 301767666,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/PQEHCH",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/PQEHCH",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136593"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Jackal_GDC_Library_Sat_Nov_13_87.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 149075156,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CQHPWZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CQHPWZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136717"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Jackal_Library_Sanjac_Sat_Nov_13_88.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 190367612,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/AMXKWM",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/AMXKWM",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136724"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Jackal_REC_Footballfield_Sat_Nov_13_93.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 78557872,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/2MAZH2",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/2MAZH2",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136726"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Jackal_Sanjac_Stadium_Sat_Nov_13_89.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 99543138,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/NDK2MK",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/NDK2MK",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136719"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Jackal_Stadium_Sanjac_Sat_Nov_13_90.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 96392016,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/DNVRXP",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/DNVRXP",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136718"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_AHG_Library_Mon_Nov_15_107.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 356288672,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/6XKQB2",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/6XKQB2",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136578"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Ahg_Library_Thu_Nov_11_68.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 382093582,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/QUDFOV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/QUDFOV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136592"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_AHG_Library_Tue_Nov_9_34.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 374257580,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CRKKWO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CRKKWO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136508"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_AHG_Union_Mon_Nov_15_111.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 313181982,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/BVVPDI",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/BVVPDI",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136574"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Cola_Cola_Sat_Nov_13_97.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 29038598,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/VVAYI3",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/VVAYI3",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136727"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Dobie_Library_Thu_Nov_11_74.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 236048150,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/FVSXLO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/FVSXLO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136599"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Fountain_Library_Mon_Nov_8_31.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 128566432,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/TE70FO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/TE70FO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136505"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Fountain_Union_Tue_Nov_9_36.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 273792580,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/QPHW06",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/QPHW06",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136517"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_GDC_AHG_Mon_Nov_15_116.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 94066914,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/DHTPBR",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/DHTPBR",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138103"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_GDC_Library_Tue_Nov_9_42.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 291237828,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RTUYTZ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RTUYTZ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136556"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Greg_Ahg_Thu_Nov_11_78.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 316307140,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/CI6PS5",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/CI6PS5",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136596"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Hogg_GDC_Mon_Nov_15_115.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 355325604,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/OX1QVG",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/OX1QVG",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138107"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_JCL_JCL_Mon_Nov_15_108.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 289726542,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YRQBLP",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YRQBLP",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136579"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_JCL_JCL_Thu_Nov_11_76.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 61234624,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/55MS5Q",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/55MS5Q",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136598"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_LBJ_Thompson_Sat_Nov_13_101.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 60264596,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/9J9RQW",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/9J9RQW",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136737"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_EER_Tue_Nov_9_38.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 448263390,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/ETKNMF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/ETKNMF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136519"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_Greg_Thu_Nov_11_77.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 79358520,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/DNTSU6",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/DNTSU6",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136601"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_Jester_Thu_Nov_11_75.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 49486792,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/KIDBDO",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/KIDBDO",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136602"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_MCCombs_Wed_Nov_10_47.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 137669090,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/OCDR92",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/OCDR92",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136551"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_SAC_Thu_Nov_11_69.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 177408846,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/Q1MSR8",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/Q1MSR8",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136581"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Library_WagnerHall_Mon_Nov_8_29.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 177205594,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/POYDTR",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/POYDTR",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136502"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_NHB_Union_Mon_Nov_15_114.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 330242736,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/BCE1IF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/BCE1IF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138109"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Parlin_NHB_Wed_Nov_10_52.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 409503072,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/F6JFNT",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/F6JFNT",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136563"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_RLM_OsCafe_Mon_Nov_15_117.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 91190396,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/BGVOFB",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/BGVOFB",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138102"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_RLM_RLM_Wed_Nov_10_44.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 4971062,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/COJPKX",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/COJPKX",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136522"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_RLM_RLM_Wed_Nov_10_45.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 25430506,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/ZZSRWJ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/ZZSRWJ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136549"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_SAC_AHG_Mon_Nov_15_110.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 228703936,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/9JECME",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/9JECME",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136577"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_SAC_NHB_Mon_Nov_15_113.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 223362002,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/0QHLOF",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/0QHLOF",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138108"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_SAC_SAC_Mon_Nov_15_109.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 54318476,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/RI9LWN",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/RI9LWN",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136575"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_SAC_SAC_Wed_Nov_10_49.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 38305248,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/YHX2JE",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/YHX2JE",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136558"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Speedway_SAC_Wed_Nov_10_48.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 40929414,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/GNJS8S",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/GNJS8S",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136550"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Thompson_Thompson_Sat_Nov_13_100.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 161726124,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/O9COK6",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/O9COK6",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136733"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Thompson_Thompson_Sat_Nov_13_102.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 21113578,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/ATLOUB",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/ATLOUB",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136738"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Union_Dobie_Thu_Nov_11_72.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 373194432,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/UOZI3Z",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/UOZI3Z",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136594"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Union_SAC_Mon_Nov_15_112.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 327843158,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/BOL9KA",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/BOL9KA",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136576"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "B_Spot_Welch_Welch_Thu_Nov_11_70.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 38414870,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/9XMEHQ",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/9XMEHQ",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136580"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_Foodtruck_Bass_Fri_Nov_26_133.mp4",
+      "encodingFormat": "video/mp4",
+      "contentSize": 14219807,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/DEK1UH",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/DEK1UH",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136456"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_Rec_Bass_Fri_Nov_26_127.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 314922868,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/I5Z9IV",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/I5Z9IV",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138128"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_Rec_Tent_Fri_Nov_26_129.avi",
+      "encodingFormat": "video/avi",
+      "contentSize": 205128810,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/GKC3ZH",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/GKC3ZH",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136606"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_SanJac_Bass_Fri_Nov_26_125.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 112965438,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/AV8B3G",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/AV8B3G",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/138124"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_Speedway_Butler_Fri_Nov_26_131.avi",
+      "encodingFormat": "video/avi",
+      "contentSize": 413192662,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/GZLHVS",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/GZLHVS",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136461"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "C_Spot_Tent_AHG_Fri_Nov_26_130.avi",
+      "encodingFormat": "video/avi",
+      "contentSize": 226965650,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/TK63SC",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/TK63SC",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136463"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "D_Spot_PerformingArts_Lbj_Sat_Nov_13_98.avi",
+      "encodingFormat": "video/x-msvideo",
+      "contentSize": 217886158,
+      "@id": "https://doi.org/10.18738/T8/0PRYRH/7ZF78K",
+      "identifier": "https://doi.org/10.18738/T8/0PRYRH/7ZF78K",
+      "contentUrl": "https://dataverse.tdl.org/api/access/datafile/136730"
+    }
+  ]
+}

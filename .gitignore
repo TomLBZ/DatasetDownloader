@@ -1,0 +1,6 @@
+.vs
+.vscode
+.vscode-server
+
+DatasetDownloader/bin
+DatasetDownloader/obj
