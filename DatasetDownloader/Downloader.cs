@@ -3,6 +3,8 @@
 internal class Downloader
 {
     protected readonly HttpClient _client;
+    protected bool _isSpeedUpdatable = false;
+    protected readonly Timer _timer;
     public Downloader(string base_url = "")
     {
         HttpClientHandler handler = new()
@@ -16,6 +18,7 @@ internal class Downloader
             "User-Agent", 
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
         );
+        _timer = new Timer((_) => _isSpeedUpdatable = true, null, 1000, 1000);
     }
     protected async Task<List<string>> GetLinksFromUrl(string url, string pre = "<a href=", string post = ">")
     {
@@ -59,8 +62,9 @@ internal class Downloader
             await fileStream.WriteAsync(buffer.AsMemory(0, bytesRead), CancellationToken.None);
             totalBytesRead += bytesRead;
             int progress = (int)((double)totalBytesRead / contentLength.Value * 100);
-            if (progress != lastProgress)
+            if (progress != lastProgress || _isSpeedUpdatable)
             {
+                _isSpeedUpdatable = false;
                 var now = DateTime.UtcNow;
                 double elapsedSeconds = (now - lastUpdateTime).TotalSeconds;
                 if (elapsedSeconds > 0)
