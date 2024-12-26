@@ -1,13 +1,13 @@
 {
   "datasets": [
     {
-      "link_file": "huron_links.txt",
+      "linkFile": "huron_links.txt",
       "name": "huron",
       "path": "datasets/huron/",
       "url": "https://rail.eecs.berkeley.edu/datasets/huron/"
     },
     {
-      "link_file": "scand.json",
+      "linkFile": "scand.json",
       "name": "scand",
       "path": "datasets/scand/",
       "url": ""
