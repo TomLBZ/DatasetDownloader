@@ -62,7 +62,7 @@ internal class Downloader
             await fileStream.WriteAsync(buffer.AsMemory(0, bytesRead), CancellationToken.None);
             totalBytesRead += bytesRead;
             int progress = (int)((double)totalBytesRead / contentLength.Value * 100);
-            if (progress != lastProgress || _isSpeedUpdatable)
+            if (_isSpeedUpdatable || progress == 100)
             {
                 _isSpeedUpdatable = false;
                 var now = DateTime.UtcNow;

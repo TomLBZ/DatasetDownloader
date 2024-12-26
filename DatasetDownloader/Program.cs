@@ -65,7 +65,9 @@ foreach (JsonElement dataset in datasets.EnumerateArray())
 }
 
 // await task one after another
+int taskIndex = 0;
 foreach (var task in tasks)
 {
+    Console.WriteLine($"======= Downloading datasets {++taskIndex}/{tasks.Count} =======");
     task.Wait();
 }
