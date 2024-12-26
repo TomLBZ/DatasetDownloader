@@ -50,7 +50,7 @@ internal class Downloader
         {
             Console.WriteLine("Could not determine file size. Downloading without progress indication...");
             using var fStream = File.Create(filename);
-            response.Content.CopyToAsync(fStream).GetAwaiter().GetResult();
+            response.Content.CopyToAsync(fStream).Wait();
             return;
         }
         using var responseStream = response.Content.ReadAsStreamAsync().Result;
@@ -61,9 +61,9 @@ internal class Downloader
         int lastProgress = -1;
         DateTime lastUpdateTime = DateTime.UtcNow;
         long lastUpdateBytes = 0;
-        while ((bytesRead = responseStream.ReadAsync(buffer.AsMemory(0, buffer.Length), CancellationToken.None).Result) != 0)
+        while ((bytesRead = responseStream.Read(buffer, 0, buffer.Length)) != 0)
         {
-            fileStream.WriteAsync(buffer.AsMemory(0, bytesRead), CancellationToken.None).GetAwaiter().GetResult();
+            fileStream.Write(buffer, 0, bytesRead);
             totalBytesRead += bytesRead;
             int progress = (int)((double)totalBytesRead / contentLength.Value * 100);
             if (_isSpeedUpdatable || progress == 100)
