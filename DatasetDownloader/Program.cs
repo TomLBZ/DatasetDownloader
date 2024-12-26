@@ -46,15 +46,15 @@ foreach (JsonElement dataset in datasets.EnumerateArray())
     switch (name)
     {
         case "HURON":
-            HuronDownloader downloader = new(url);
-            Task<List<string>> huronLinksTask = downloader.GetHuronPageLinks(link_file);
-            Task huronDownloadTask = huronLinksTask.ContinueWith(links => downloader.DownloadHuron(links.Result, path));
+            HuronDownloader huronDownloader = new(url);
+            List<string> huronLinks = huronDownloader.GetHuronPageLinks(link_file);
+            Task huronDownloadTask = huronDownloader.DownloadHuron(huronLinks, path);
             tasks.Add(huronDownloadTask);
             break;
         case "SCAND":
             ScandDownloader scandDownloader = new();
-            List<DataObject> dataObjects = DataObject.Load(link_file);
-            Task scandDownloadTask = scandDownloader.DownloadScand(dataObjects, path);
+            List<ScandDataObject> scandDataObject = ScandDataObject.Load(link_file);
+            Task scandDownloadTask = scandDownloader.DownloadScand(scandDataObject, path);
             tasks.Add(scandDownloadTask);
             break;
         default:

@@ -3,7 +3,7 @@
 internal class HuronDownloader : Downloader
 {
     public HuronDownloader(string base_url = "") : base(base_url) { }
-    public async Task<List<string>> GetHuronPageLinks(string pre = "<a href=", string post = ">", string filename = "huron_links.txt")
+    public async Task<List<string>> GetHuronPageLinksAsync(string pre = "<a href=", string post = ">", string filename = "huron_links.txt")
     {
         if (File.Exists(filename))
         {
@@ -16,6 +16,10 @@ internal class HuronDownloader : Downloader
         datalinks = links.Aggregate((a, b) => [.. a, .. b]);
         File.WriteAllLines(filename, datalinks);
         return datalinks;
+    }
+    public List<string> GetHuronPageLinks(string pre = "<a href=", string post = ">", string filename = "huron_links.txt")
+    {
+        return GetHuronPageLinksAsync(pre, post, filename).Result;
     }
     public async Task DownloadHuron(List<string> links, string store_path)
     {
