@@ -69,5 +69,5 @@ int taskIndex = 0;
 foreach (var task in tasks)
 {
     Console.WriteLine($"======= Downloading datasets {++taskIndex}/{tasks.Count} =======");
-    task.RunSynchronously();
+    task.GetAwaiter().GetResult(); // wait for the task to complete synchronously
 }
