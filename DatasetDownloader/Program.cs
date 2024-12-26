@@ -67,5 +67,5 @@ foreach (JsonElement dataset in datasets.EnumerateArray())
 // await task one after another
 foreach (var task in tasks)
 {
-    await task;
+    task.Wait();
 }
